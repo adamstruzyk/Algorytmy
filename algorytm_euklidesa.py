@@ -1,5 +1,6 @@
-liczba1 = 1
-liczba2 = 0
+liczba1 = 282
+liczba2 = 78
+#NWD tych liczb wynosi 6
 
 def NWD(a,b):
     while a != b:
