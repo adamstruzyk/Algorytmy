@@ -1,5 +1,5 @@
 def czy_pierwsza(n):
-    if n == 1: return False
+    if n <= 1: return False
     else:
         i = 2
         while i*i<=n: 
