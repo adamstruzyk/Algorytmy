@@ -1,15 +1,10 @@
 def czy_pierwsza(n):
-    if n < 2:
-        return False
-    elif n == 2:
-        return True
+    if n == 1: return False
     else:
-        i = 3
-        while (i * i < n):
-            if n % i == 0:
-                return False
-            else:
-                i += 1
+        i = 2
+        while i*i<=n: 
+            if n%i==0: return False
+            i += 1
         return True
 
 liczba = 113
