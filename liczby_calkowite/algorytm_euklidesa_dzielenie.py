@@ -1,9 +1,10 @@
-def NWD(a,b):
+def nwd(a, b):
     while b != 0:
-        temp = b
-        b = a % b
-        a = temp
+        a, b = b, a % b
     return a
-liczba1 = 282
-liczba2 = 78
-print(NWD(liczba1,liczba2))
+
+a = 282
+b = 78
+
+wynik = nwd(a, b)
+print(f"NWD({a}, {b}) = {wynik}")
