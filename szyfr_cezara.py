@@ -18,11 +18,17 @@ print()
 
 text_zaszyfrowany = ""
 for litera in text:
-    text_zaszyfrowany += koduj(litera, klucz)
+    if litera == ' ':
+        text_zaszyfrowany += ' '
+    else:
+        text_zaszyfrowany += koduj(litera, klucz)
 print("Text po szyfrowaniu: ", text_zaszyfrowany)
 
 text_odszyfrowany = ""
 for litera in text_zaszyfrowany:
-    text_odszyfrowany += dekoduj(litera, klucz)
+    if litera == ' ':
+        text_odszyfrowany += ' '
+    else:
+        text_odszyfrowany += dekoduj(litera, klucz)
 
 print("Tekst po odszyfrowaniu: ", text_odszyfrowany, "\n")
