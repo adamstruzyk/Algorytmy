@@ -1,7 +1,7 @@
 📋 Algorytmy są dodawane na bieżąco.
 
 ---
-Lista algorytmów, które trzeba umieć. Te, które znajdują się już w repozytorium są zaznaczone. (W oparciu o podstawę programową na rok 2024/2025 CKE)
+Lista algorytmów, które trzeba umieć. Te, które znajdują się już w repozytorium są zaznaczone. (W oparciu o podstawę programową na rok 2024/2025 CKE i moje zajęcia z informatyki)
 ## Algorytmy na Liczbach
 
 - **Badanie pierwszości liczby** ✅  
@@ -11,7 +11,8 @@ Lista algorytmów, które trzeba umieć. Te, które znajdują się już w repozy
 - **Algorytm Euklidesa (iteracyjny i rekurencyjny)** ✅  
 - **Wyszukiwanie binarne** ✅  
 - **Generowanie liczb pierwszych metodą sita Eratostenesa** 🔲  
-- **Jednoczesne wyszukiwanie elementu najmniejszego i największego** 🔲  
+- **Wyszukiwanie elementu najmniejszego i największego** ✅  
+- **Jednoczesne wyszukiwanie elementu najmniejszego i największego** 🔲 
 - **Sortowanie ciągu liczb przez scalanie** 🔲  
 - **Wyznaczanie miejsc zerowych funkcji metodą połowienia** 🔲  
 - **Obliczanie przybliżonej wartości pierwiastka kwadratowego** 🔲  
@@ -27,7 +28,9 @@ Lista algorytmów, które trzeba umieć. Te, które znajdują się już w repozy
 
 - **Porównywanie tekstów** 🔲  
 - **Wyszukiwanie wzorca w tekście metodą naiwną** ✅  
-- **Szyfrowanie tekstu metodą Cezara** ✅  
+- **Szyfrowanie tekstu metodą Cezara** ✅
+- **Palindromy** ✅  
+- **Anagramy** 🔲   
 
 ---
 
